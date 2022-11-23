@@ -1,0 +1,28 @@
+{
+  "name": "aindrajaya.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "me.js",
+  "scripts": {
+    "dev": "next dev -H 0.0.0.0",
+    "build": "next build",
+    "prettier": "prettier -write",
+    "lint": "next lint"
+  },
+  "keywords": [],
+  "author": "A Indrajaya <me@aindrajaya.my.id> (https://aindrajaya.io/)",
+  "license": "MIT",
+  "dependencies": {
+    "@chakra-ui/react": "2.5.1",
+    "@emotion/react": "11.10.6",
+    "@emotion/styled": "11.10.6",
+    "next": "13.2.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "eslint": "8.36.0",
+    "eslint-config-next": "13.2.4",
+    "prettier": "2.8.4"
+  }
+}
