@@ -4,3 +4,8 @@
 doc.html
 logo.svg
 screenshot.jpg
+.next
+
+.DS_Store
+package-lock.json
+yarn.lock
