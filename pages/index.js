@@ -1,4 +1,8 @@
-import { Container, Box, Heading } from "@chakra-ui/react";
+import { Container, Box, Heading, chakra, Image } from "@chakra-ui/react";
+
+const ProfileImage = chakra(Image, {
+  shouldForwardProp: prop => ["width", "height", "src", "alt"].includes(prop)
+})
 
 const Page = () => {
   return (
@@ -13,6 +17,31 @@ const Page = () => {
             Arista Indrajaya
           </Heading>
           <p>Website Apps Developer (Web3 / React / JavaScript)</p>
+        </Box>
+        <Box
+          flexShrink={0}
+          mt={{base: 4, md: 0}}
+          ml={{md: 6}}
+          textAlign="center"
+        >
+          <Box
+            borderColor="whiteAlpha.800"
+            borderWidth={2}
+            borderStyle="solid"
+            w="100px"
+            h="100px"
+            display="inline-block"
+            borderRadius="full"
+            overflow="hidden"
+          >
+            <ProfileImage 
+              src="/images/arista.jpeg"
+              alt="Profile Image"
+              borderRadius="full"
+              width="100"
+              height="100"
+            />
+          </Box>
         </Box>
       </Box>
     </Container>
