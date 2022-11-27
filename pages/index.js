@@ -90,6 +90,20 @@ const Page = () => {
           Working as Freelancer
         </BioSection>
       </Section>
+
+      <Section delay={0.3}>
+        <Heading as="h3" variant="section-title">
+          I ♥
+        </Heading>
+        <Paragraph>
+          Nature,{' '}
+          <Link href="https://www.youtube.com/watch?v=4TuggkDPw6A" target="_blank">
+            Football ⚽
+          </Link>
+          , Teaching, Blockchain, and NLP
+        </Paragraph>
+      </Section>
+
     </Container>
   )
 }
