@@ -21,7 +21,7 @@ export const GridItem = ({children, href, title, thumbnail}) => (
   </Box>
 )
 
-export const WorkGridItem = ({children, id, title, thumbn}) => (
+export const WorkGridItem = ({children, id, title, thumbnail}) => (
   <Box w="100%" textAlign="center">
     <LinkBox
       as={NextLink}
