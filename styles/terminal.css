@@ -1,0 +1,24 @@
+.hero__terminal {
+  width: 100%;
+  margin: 2rem auto 3rem auto;
+  font-size: 16px;
+  text-align: left;
+  color: white;
+  padding: 0 1rem;
+  border-radius: 4px;
+  background-color: #2b312d;
+  min-height: 15vh;
+  animation: fadeUp 2s;
+  box-shadow: 0px 12px 36.8px 9.2px rgba(0, 0, 0, 0.1);
+}
+
+.hero__terminal pre {
+  white-space: pre-line;
+  padding-top: 1rem;
+}
+
+@media (max-width: 600px) {
+  .hero__terminal {
+    height: 40vh;
+  }
+}
