@@ -4,6 +4,7 @@ import { ChevronRightIcon } from "@chakra-ui/icons";
 import Paragraph from "../components/paragraph";
 import Section from "../components/section";
 import { BioSection, BioYear } from "../components/bio";
+import Typewriter from "../components/typewriter";
 import useWindowSize from "../libs/useWindowSize";
 
 const ProfileImage = chakra(Image, {
@@ -15,6 +16,9 @@ const Page = () => {
 
   return (
     <Container>
+      <Box mt={15}>
+        <Typewriter />
+      </Box>
       <Box borderRadius="lg" bg="green" p={2} mb={3} align="center">
         I&apos;m Website Apps Developer based in Indonesia
         {size.width > 600 && <Button
