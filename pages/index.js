@@ -71,7 +71,7 @@ const Page = () => {
           Work
         </Heading>
         <Paragraph>
-          Arista is a front-end developer and educator based in Indonesia. His recent collaboration project is called Artopologi, an NFT marketplace that integrates physical assets with a web3 environment. Arista is passionate about creating digital solutions that solve real-life problems and has a talent for launching successful products from ideation to implementation. In addition to his work in tech, Arista enjoys teaching and empowering others to learn and grow in the field. When he's not coding, Arista loves exploring creative hobbies like writing articles and designing.
+          Arista is a front-end developer and educator based in Indonesia. His recent collaboration project is called Artopologi, an NFT marketplace that integrates physical assets with a web3 environment. Arista is passionate about creating digital solutions that solve real-life problems and has a talent for launching successful products from ideation to implementation. In addition to his work in tech, Arista enjoys teaching and empowering others to learn and grow in the field. When he`s not coding, Arista loves exploring creative hobbies like writing articles and designing.
         </Paragraph>
         {
           size.width < 600 && 
