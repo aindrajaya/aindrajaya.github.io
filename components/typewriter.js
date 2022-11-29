@@ -1,3 +1,4 @@
+import { Box,useColorModeValue } from "@chakra-ui/react";
 import React, { useEffect, useState } from "react";
 
 const Typewriter = () => {
@@ -49,12 +50,14 @@ const Typewriter = () => {
   }
 
   return (
-    <div className="hero__terminal">
+    <Box
+      bg={useColorModeValue('#A4907C', '#2b312d')}
+      className="hero__terminal">
       <pre>
         {/* Place your demo code here */}
         <code className="shell-session demo">bonjour ~ $ {text}</code>
       </pre>
-    </div>
+    </Box>
   );
 };
 
