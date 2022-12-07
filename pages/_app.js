@@ -4,6 +4,7 @@ import Layout from "../components/layouts/main";
 import theme from "../libs/theme";
 import "../styles/terminal.css"
 import { AnimatePresence } from "framer-motion";
+import { Analytics } from "@vercel/analytics/react";
 
 const Theweb = ({Component, pageProps, router}) => {
   return (
@@ -12,6 +13,7 @@ const Theweb = ({Component, pageProps, router}) => {
       <Layout router={router}>
         <AnimatePresence mode="wait" initial={true}>
           <Component {...pageProps} key={router.route}/>
+          <Analytics />
         </AnimatePresence>
       </Layout>
     </ChakraProvider>
