@@ -7,7 +7,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/aindrajaya/aindrajaya.github.io">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="public/logo.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Personal Portfolio</h3>
