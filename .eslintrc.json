@@ -1,13 +1,4 @@
 {
   "root": true,
-  "extends": "next",
-  "rules": {
-    "No-unused-vars": [
-      "Error",
-      {
-        "argsIgnorePattern": "^_",
-        "varsIgnorePattern": "^_"
-      }
-    ]
-  }
+  "extends": "next"
 }

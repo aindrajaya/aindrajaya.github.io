@@ -4,16 +4,33 @@ import { ChevronRightIcon } from "@chakra-ui/icons";
 import Paragraph from "../components/paragraph";
 import Section from "../components/section";
 import { BioSection, BioYear } from "../components/bio";
+import Typewriter from "../components/typewriter";
+import useWindowSize from "../libs/useWindowSize";
 
 const ProfileImage = chakra(Image, {
   shouldForwardProp: prop => ["width", "height", "src", "alt"].includes(prop)
 })
 
 const Page = () => {
+  const size = useWindowSize()
+
   return (
     <Container>
-      <Box borderRadius="lg" bg="green" p={3} mb={6} align="center">
-        Hi, I&apos;m Website Apps Developer based in Indonesia
+      <Box mt={15}>
+        <Typewriter />
+      </Box>
+      <Box borderRadius="lg" bg="green" p={2} mb={3} align="center">
+        I&apos;m Website Apps Developer based in Indonesia
+        {size.width > 600 && <Button
+          as={NextLink}
+          href="/works"
+          scroll={false}
+          rightIcon={<ChevronRightIcon />}
+          colorScheme="green"
+          ml={3}
+          >
+            Check Portfolio
+          </Button>}
       </Box>
 
       <Box display={{md: "flex"}}>
@@ -54,19 +71,23 @@ const Page = () => {
           Work
         </Heading>
         <Paragraph>
-          Arista is a front-end developer and educator based in Indonesia. His recent collaboration project is called Artopologi, an NFT marketplace that integrates physical assets with a web3 environment. Arista is passionate about creating digital solutions that solve real-life problems and has a talent for launching successful products from ideation to implementation. In addition to his work in tech, Arista enjoys teaching and empowering others to learn and grow in the field. When he's not coding, Arista loves exploring creative hobbies like writing articles and designing.
+          Arista is a front-end developer and educator based in Indonesia. His recent collaboration project is called Artopologi, an NFT marketplace that integrates physical assets with a web3 environment. Arista is passionate about creating digital solutions that solve real-life problems and has a talent for launching successful products from ideation to implementation. In addition to his work in tech, Arista enjoys teaching and empowering others to learn and grow in the field. When he`s not coding, Arista loves exploring creative hobbies like writing articles and designing.
         </Paragraph>
-        <Box align="center" my={4}>
-          <Button
-            as={NextLink}
-            href="/works"
-            scroll={false}
-            rightIcon={<ChevronRightIcon />}
-            colorScheme="green"
-          >
-            My Portofolio
-          </Button>
-        </Box>
+        {
+          size.width < 600 && 
+            <Box align="center" my={4}>
+              <Button
+                as={NextLink}
+                href="/works"
+                scroll={false}
+                rightIcon={<ChevronRightIcon />}
+                colorScheme="green"
+                ml={3}
+                >
+                Check Portfolio
+              </Button>
+              </Box>
+          }
       </Section>
 
       <Section delay={0.2}>
@@ -103,6 +124,7 @@ const Page = () => {
           , Teaching, Blockchain, and NLP
         </Paragraph>
       </Section>
+      
 
     </Container>
   )
