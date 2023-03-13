@@ -4,7 +4,7 @@ import Navbar from "../navbar";
 
 const Main = ({children, router}) => {
   return(
-    <Box as="main" pt={8}>
+    <Box as="main">
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="description" content="Arista's homepage" />
