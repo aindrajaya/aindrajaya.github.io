@@ -1,11 +1,11 @@
 import NextLink from "next/link";
-import { Link, Container, Box, Heading, chakra, Image, Button } from "@chakra-ui/react";
-import { ChevronRightIcon } from "@chakra-ui/icons";
+import { List, Link, Container, Box, Heading, chakra, Image, Button, useColorModeValue, ListItem } from "@chakra-ui/react";
+import { ChevronRightIcon, EmailIcon } from "@chakra-ui/icons";
 import Paragraph from "../components/paragraph";
 import Section from "../components/section";
 import { BioSection, BioYear } from "../components/bio";
-import Typewriter from "../components/typewriter";
 import useWindowSize from "../libs/useWindowSize";
+import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub } from "react-icons/io5";
 
 const ProfileImage = chakra(Image, {
   shouldForwardProp: prop => ["width", "height", "src", "alt"].includes(prop)
@@ -16,17 +16,21 @@ const Page = () => {
 
   return (
     <Container>
-      <Box mt={15}>
-        <Typewriter />
-      </Box>
-      <Box borderRadius="lg" bg="green" p={2} mb={3} align="center">
+      <Box 
+        borderRadius="lg" 
+        bg={useColorModeValue("#C8B6A6","green")}
+        p={2} 
+        mb={3} 
+        align="center"
+        >
         I&apos;m Website Apps Developer based in Indonesia
         {size.width > 600 && <Button
           as={NextLink}
           href="/works"
           scroll={false}
           rightIcon={<ChevronRightIcon />}
-          colorScheme="green"
+          // eslint-disable-next-line react-hooks/rules-of-hooks
+          colorScheme={useColorModeValue("yellow","green")}
           ml={3}
           >
             Check Portfolio
@@ -125,7 +129,66 @@ const Page = () => {
         </Paragraph>
       </Section>
       
+      <Section delay={0.3}>
+        <Heading as="h3" variant="section-title">
+          On the Web
+        </Heading>
+        <List>
+          <ListItem>
+            <Link href="https://github.com/aindrajaya" target="_blank">
+              <Button
+                variant="ghost"
+                colorScheme="teal"
+                leftIcon={<IoLogoGithub />}
+              >
+                @aindrajaya
+              </Button>
+            </Link>
+          </ListItem>
+          <ListItem>
+            <Link href="https://twitter.com/aindrajayaa" target="_blank">
+              <Button
+                variant="ghost"
+                colorScheme="teal"
+                leftIcon={<IoLogoTwitter />}
+              >
+                @aindrajayaa
+              </Button>
+            </Link>
+          </ListItem>
+          <ListItem>
+            <Link href="https://instagram.com/arista.indrajaya" target="_blank">
+              <Button
+                variant="ghost"
+                colorScheme="teal"
+                leftIcon={<IoLogoInstagram />}
+              >
+                @arista.indrajaya
+              </Button>
+            </Link>
+          </ListItem>
+        </List>
 
+        <Heading as="h3" variant="section-title">
+          Newsletter
+        </Heading>
+        <p>
+          Join me on a behind-the-scenes coding journey. Weekly updates on
+          projects, tutorials, and videos
+        </p>
+        <Box align="center" my={4}>
+          <Button
+            isDisabled={true}
+            as={NextLink}
+            href="/"
+            scroll={false}
+            leftIcon={<EmailIcon />}
+            colorScheme={useColorModeValue("yellow","green")}
+          >
+            Sign up my newsletter here
+          </Button>
+        </Box>
+      </Section>
     </Container>
   )
 }

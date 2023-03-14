@@ -3,13 +3,16 @@ import Fonts from "../components/fonts";
 import Layout from "../components/layouts/main";
 import theme from "../libs/theme";
 import "../styles/terminal.css"
+import { AnimatePresence } from "framer-motion";
 
 const Theweb = ({Component, pageProps, router}) => {
   return (
     <ChakraProvider theme={theme}>
       <Fonts />
       <Layout router={router}>
-        <Component {...pageProps} key={router.route}/>
+        <AnimatePresence mode="wait" initial={true}>
+          <Component {...pageProps} key={router.route}/>
+        </AnimatePresence>
       </Layout>
     </ChakraProvider>
   )
