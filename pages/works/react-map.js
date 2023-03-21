@@ -29,9 +29,9 @@ const Work = () => (
           <span>Leaflet, React, Vite, GeoJSON</span>
         </ListItem>
         <ListItem>
-          <Meta>Blogspot</Meta>
-          <Link>
-            Haven`t any
+          <Meta>GitHub</Meta>
+          <Link href="https://github.com/aindrajaya/react-map">
+            React Map <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
       </List>

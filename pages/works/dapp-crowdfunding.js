@@ -32,9 +32,9 @@ const Work = () => (
           <span>Tailwind, React, Vite, Thirdweb</span>
         </ListItem>
         <ListItem>
-          <Meta>Blogspot</Meta>
-          <Link>
-            Haven`t any
+          <Meta>GitHub</Meta>
+          <Link href="https://github.com/aindrajaya/dapp-crowdfunding-client">
+            DApp Crowdfunding <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
       </List>
