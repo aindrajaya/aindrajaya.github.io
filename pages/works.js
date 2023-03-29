@@ -6,6 +6,7 @@ import Layout from "../components/layouts/article";
 //Images
 import reactMapThumb from "../public/images/works/reactmap.jpg";
 import dappCrowdfundingThumb from "../public/images/works/dappcrowdfunding.jpg"
+import artopThumb from "../public/images/works/artopologi2.png";
 
 const Works = () => {
   return(
@@ -16,25 +17,32 @@ const Works = () => {
         </Heading>
         <Divider />
         <Heading as="h4" fontSize={16} mt={2} mb={4}>
+          Collaboration Works
+        </Heading>
+        {/* With Delay 0.1 */}
+        <SimpleGrid columns={[1, 1, 2]} gap={6}>
+          <Section delay={0.1}>
+            <WorkGridItem id="artopologi" title="Artopologi" thumbnail={artopThumb}>
+            Artopologi.com is a website that offers art-related content and services, such as artist profiles, art collections, and auctions.
+            </WorkGridItem>
+          </Section>
+        </SimpleGrid>
+        <Divider />
+        <Heading as="h4" fontSize={16} mt={2} mb={4}>
           Personal Works
         </Heading>
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
-          <Section>
+          <Section delay={0.2}>
             <WorkGridItem id="react-map" title="React Map" thumbnail={reactMapThumb}>
               This project enhancing ReactJS GIS implementation using Leaflet. This project has a tool for visualizing and analyzing spatial data.
             </WorkGridItem>
           </Section>
           <Section delay={0.4}>
             <WorkGridItem id="dapp-crowdfunding" title="Dapp Crowdfunding" thumbnail={dappCrowdfundingThumb}>
-            A decentralized crowdfunding app (also known as a web3 crowdfunding app) is a DApp that enables users to participate in crowdfunding campaigns using cryptocurrency or other digital assets.
+              A decentralized crowdfunding app (also known as a web3 crowdfunding app) is a DApp that enables users to participate in crowdfunding campaigns using cryptocurrency or other digital assets.
             </WorkGridItem>
           </Section>
         </SimpleGrid>
-        <Divider />
-        <Heading as="h4" fontSize={16} mt={2} mb={4}>
-          Collaboration Works
-        </Heading>
-        {/* With Delay 0.1 */}
         <Divider />
         <Heading as="h4" fontSize={16} mt={2} mb={4}>
           Non-profit Works
