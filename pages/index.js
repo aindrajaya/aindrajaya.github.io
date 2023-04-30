@@ -62,7 +62,7 @@ const Page = () => {
             overflow="hidden"
           >
             <ProfileImage 
-              src="/images/arista.jpeg"
+              src="https://res.cloudinary.com/colbycloud-apps/image/upload/f_avif/q_auto/v1/imagecarbon/xz2us6inc50k2hklqrgu?_a=AVAEwDV0"
               alt="Profile Image"
               borderRadius="full"
               width="100"
