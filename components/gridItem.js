@@ -34,6 +34,7 @@ export const WorkGridItem = ({children, id, title, thumbnail}) => (
       <Image 
         src={thumbnail}
         alt={title}
+        loading="eager"
         className="grid-item-thumbnail"
         placeholder="blur"
         width={280}
