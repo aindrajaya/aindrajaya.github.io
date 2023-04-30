@@ -37,7 +37,7 @@ const Work = () => (
       </List>
 
       <YoutubeVideo videoId="rk_gLkVF70Y"/>
-      <WorkImage src="/images/works/react-map2.png" alt="react-map"/>
+      <WorkImage src="https://res.cloudinary.com/colbycloud-apps/image/upload/f_avif/q_auto/v1/imagecarbon/nruiawoardc8zali2yzo?_a=AVAEwDV0" alt="react-map"/>
     </Container>
   </Layout>
 )
