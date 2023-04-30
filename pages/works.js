@@ -4,9 +4,9 @@ import Section from "../components/section";
 import Layout from "../components/layouts/article";
 
 //Images
-import reactMapThumb from "../public/images/works/reactmap.jpg";
-import dappCrowdfundingThumb from "../public/images/works/dappcrowdfunding.jpg"
-import artopThumb from "../public/images/works/artopologi2.png";
+const artopThum = "https://res.cloudinary.com/colbycloud-apps/image/upload/f_avif/q_auto/v1/imagecarbon/ehpgy8yhqx1ij9xsfqis?_a=AVAEwDV0"
+const reactMapThumb = "https://res.cloudinary.com/colbycloud-apps/image/upload/f_avif/q_auto/v1/imagecarbon/xnhzggpy8kmwuzyv54d0?_a=AVAEwDV0"
+const dappCrowdfundingThumb = "https://res.cloudinary.com/colbycloud-apps/image/upload/f_avif/q_auto/v1/imagecarbon/qsdxln6pb9zhissexazm?_a=AVAEwDV0"
 
 const Works = () => {
   return(
@@ -22,7 +22,7 @@ const Works = () => {
         {/* With Delay 0.1 */}
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
           <Section delay={0.1}>
-            <WorkGridItem id="artopologi" title="Artopologi" thumbnail={artopThumb}>
+            <WorkGridItem id="artopologi" title="Artopologi" thumbnail={artopThum}>
             Artopologi.com is a website that offers art-related content and services, such as artist profiles, art collections, and auctions.
             </WorkGridItem>
           </Section>
