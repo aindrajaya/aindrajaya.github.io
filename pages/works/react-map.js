@@ -1,6 +1,6 @@
 import { Container, Badge, Link, List, ListItem } from "@chakra-ui/react";
 import { ExternalLinkIcon } from "@chakra-ui/icons";
-import { Title, WorkImage, Meta } from "../../components/work";
+import { Title, WorkImage, YoutubeVideo, Meta } from "../../components/work";
 import P from "../../components/paragraph";
 import Layout from "../../components/layouts/article";
 
@@ -36,8 +36,8 @@ const Work = () => (
         </ListItem>
       </List>
 
-      <WorkImage src="/images/works/react-map1.gif" alt="react-map"/>
-      <WorkImage src="/images/works/react-map2.png" alt="react-map"/>
+      <YoutubeVideo videoId="rk_gLkVF70Y"/>
+      <WorkImage src="https://res.cloudinary.com/colbycloud-apps/image/upload/f_avif/q_auto/v1/imagecarbon/nruiawoardc8zali2yzo?_a=AVAEwDV0" alt="react-map"/>
     </Container>
   </Layout>
 )

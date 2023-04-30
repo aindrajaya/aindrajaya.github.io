@@ -19,7 +19,7 @@ export const Title = ({children}) => (
 )
 
 export const WorkImage = ({src, alt}) => (
-  <Image borderRadius="lg" w="full" src={src} alt={alt} mb={4}/>
+  <Image borderRadius="lg" w="full" src={src} alt={alt} mb={4} mt={8}/>
 )
 
 export const YoutubeVideo = ({videoId}) => {

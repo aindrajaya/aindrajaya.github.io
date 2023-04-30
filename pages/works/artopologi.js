@@ -37,8 +37,8 @@ const Work = () => (
       </List>
 
       <YoutubeVideo videoId="UAi2HFmVa68"/>
-      <WorkImage src="/images/works/artopologi2.png" alt="Artopologi"/>
-      <WorkImage src="/images/works/artopologi3.png" alt="Artopologi"/>
+      <WorkImage src="https://res.cloudinary.com/colbycloud-apps/image/upload/f_avif/q_auto/v1/imagecarbon/kpn9xez1qi7kknybqz17?_a=AVAEwDV0" alt="Artopologi"/>
+      <WorkImage src="https://res.cloudinary.com/colbycloud-apps/image/upload/f_avif/q_auto/v1/imagecarbon/kndzlkms1ny77g5uvpro?_a=AVAEwDV0" alt="Artopologi"/>
     </Container>
   </Layout>
 )
