@@ -1,6 +1,7 @@
 import NextLink from "next/link";
 import { Heading, Box, Image, Link, Badge, useColorModeValue } from "@chakra-ui/react";
 import { ChevronRightIcon } from "@chakra-ui/icons";
+import LazyLoad from "react-lazyload";
 
 export const Title = ({children}) => (
   <Box>
