@@ -83,8 +83,11 @@ const Navbar = props => {
           <LinkItem href="/posts" path={path}>
             Posts
           </LinkItem>
-          <LinkItem href="https://aindrajaya.medium.com" path={path}>
+          <LinkItem target="_blank" href="https://aindrajaya.medium.com" path={path}>
             Articles
+          </LinkItem>
+          <LinkItem target="_blank" href="https://twisty-leo-d4c.notion.site/Remote-Work-for-Fresh-Graduate-57833f9161c240638315211c8ebc10d7#7e32b73ab6f44665a48480ac6f8a0480" path={path}>
+            Courses
           </LinkItem>
           {/* <LinkItem disabled href="/posts" path={path}>
             Uses
@@ -123,6 +126,9 @@ const Navbar = props => {
                 </MenuItem>
                 <MenuItem as={MenuLink} href="https://aindrajaya.medium.com">
                   Articles
+                </MenuItem>
+                <MenuItem as={MenuLink} href="https://twisty-leo-d4c.notion.site/Remote-Work-for-Fresh-Graduate-57833f9161c240638315211c8ebc10d7#7e32b73ab6f44665a48480ac6f8a0480">
+                  Courses
                 </MenuItem>
                 <MenuItem as={Link} href="https://github.com/aindrajaya/aindrajaya.github.io">
                   View Source
