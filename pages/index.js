@@ -62,7 +62,8 @@ const Page = () => {
             overflow="hidden"
           >
             <ProfileImage 
-              src="https://res.cloudinary.com/colbycloud-apps/image/upload/f_avif/q_auto/v1/imagecarbon/xz2us6inc50k2hklqrgu?_a=AVAEwDV0"
+              // src="https://res.cloudinary.com/colbycloud-apps/image/upload/f_avif/q_auto/v1/imagecarbon/xz2us6inc50k2hklqrgu?_a=AVAEwDV0"
+              src="/images/jaya.jpeg"
               alt="Profile Image"
               borderRadius="full"
               width="100"
@@ -76,7 +77,7 @@ const Page = () => {
           Work
         </Heading>
         <Paragraph>
-          Arista is a front-end developer and educator based in Indonesia. His recent collaboration project is called Artopologi, an NFT marketplace that integrates physical assets with a web3 environment. Arista is passionate about creating digital solutions that solve real-life problems and has a talent for launching successful products from ideation to implementation. In addition to his work in tech, Arista enjoys teaching and empowering others to learn and grow in the field. When he`s not coding, Arista loves exploring creative hobbies like writing articles and designing.
+          Arista is a software developer and educator based in Indonesia. And now work at Pena, software agency based on US. His recent collaboration project is called Artopologi, an NFT marketplace that integrates physical assets with a web3 environment. Arista is passionate about creating digital solutions that solve real-life problems and has a talent for launching successful products from ideation to implementation. In addition to his work in tech, Arista enjoys teaching and empowering others to learn and grow in the field. When he`s not coding, Arista loves exploring creative hobbies like writing articles and testing dev.
         </Paragraph>
         {
           isSizeY && 
@@ -104,16 +105,20 @@ const Page = () => {
           Born in Madiun, Indonesia
         </BioSection>
         <BioSection>
-          <BioYear>2018</BioYear>
-          Completed the Bachelor Degree of Information Technology at State University of Surabaya
+          <BioYear>2023 - present</BioYear>
+          Working at Pena
         </BioSection>
         <BioSection>
           <BioYear>2020 - 2022</BioYear>
           Working as Frontend mentor at the well-known tech education institution in Indonesia called Binar Academy
         </BioSection>
         <BioSection>
-          <BioYear>2019 - Present</BioYear>
+          <BioYear>2019 - 2022</BioYear>
           Working as Freelancer
+        </BioSection>
+        <BioSection>
+          <BioYear>2018</BioYear>
+          Completed the Bachelor Degree of Information Technology at State University of Surabaya
         </BioSection>
       </Section>
 
@@ -126,7 +131,7 @@ const Page = () => {
           <Link href="https://www.youtube.com/watch?v=4TuggkDPw6A" target="_blank">
             Football ⚽
           </Link>
-          , Teaching, Blockchain, and NLP
+          , Teaching, Blockchain, and Software Development
         </Paragraph>
       </Section>
       
