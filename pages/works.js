@@ -2,11 +2,13 @@ import { Container, Heading, SimpleGrid, Divider } from "@chakra-ui/react";
 import { WorkGridItem } from "../components/gridItem";
 import Section from "../components/section";
 import Layout from "../components/layouts/article";
+// import penaThumb from "../../public/images/pena.png";
 
 //Images
 const artopThum = "https://res.cloudinary.com/colbycloud-apps/image/upload/f_avif/q_auto/v1/imagecarbon/ehpgy8yhqx1ij9xsfqis?_a=AVAEwDV0"
 const reactMapThumb = "https://res.cloudinary.com/colbycloud-apps/image/upload/f_avif/q_auto/v1/imagecarbon/xnhzggpy8kmwuzyv54d0?_a=AVAEwDV0"
 const dappCrowdfundingThumb = "https://res.cloudinary.com/colbycloud-apps/image/upload/f_avif/q_auto/v1/imagecarbon/qsdxln6pb9zhissexazm?_a=AVAEwDV0"
+const penaThumb = "/images/works/pena.png"
 
 const Works = () => {
   return(
@@ -21,6 +23,11 @@ const Works = () => {
         </Heading>
         {/* With Delay 0.1 */}
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
+          <Section delay={0.1}>
+            <WorkGridItem id="pena" title="Pena" thumbnail={penaThumb}>
+            Penateam.com is a platform that offers technical documentation services, such as API & SDK Documentation, Internal Documentation and many more.
+            </WorkGridItem>
+          </Section>
           <Section delay={0.1}>
             <WorkGridItem id="artopologi" title="Artopologi" thumbnail={artopThum}>
             Artopologi.com is a website that offers art-related content and services, such as artist profiles, art collections, and auctions.
