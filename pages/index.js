@@ -77,7 +77,7 @@ const Page = () => {
           Work
         </Heading>
         <Paragraph>
-          Arista is a software developer and educator based in Indonesia. And now work at Pena, software agency based on US. His recent collaboration project is called Artopologi, an NFT marketplace that integrates physical assets with a web3 environment. Arista is passionate about creating digital solutions that solve real-life problems and has a talent for launching successful products from ideation to implementation. In addition to his work in tech, Arista enjoys teaching and empowering others to learn and grow in the field. When he`s not coding, Arista loves exploring creative hobbies like writing articles and testing dev.
+          Arista is a software developer and educator based in Indonesia. And now work at Pena as Software Seveloper. His recent collaboration project is called Artopologi, an NFT marketplace that integrates physical assets with a web3 environment. Arista is passionate about creating digital solutions that solve real-life problems and has a talent for launching successful products from ideation to implementation. In addition to his work in tech, Arista enjoys teaching and empowering others to learn and grow in the field. When he`s not coding, Arista loves exploring creative hobbies like writing articles and testing dev.
         </Paragraph>
         {
           isSizeY && 
@@ -106,7 +106,7 @@ const Page = () => {
         </BioSection>
         <BioSection>
           <BioYear>2023 - present</BioYear>
-          Working at Pena
+          Working at Pena as Software Developer
         </BioSection>
         <BioSection>
           <BioYear>2020 - 2022</BioYear>
