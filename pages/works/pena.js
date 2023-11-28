@@ -11,7 +11,7 @@ const Work = () => (
         Pena <Badge>2023</Badge>
       </Title>
       <P>
-        In this Company I Focus on Led the development of various high-impact projects for clients across diverse industries, including game NFT, voice recognition, and Building property and Implemented best practices and coding standards, resulting in improved code quality and reduced project turnaround time on Penateam's main Website
+        In this Company I Focus on Led the development of various high-impact projects for clients across diverse industries, including game NFT, voice recognition, and Building property and Implemented best practices and coding standards, resulting in improved code quality and reduced project turnaround time on Penateam&lsquo;s main Website
       </P>
       <List ml={4} my={4}>
         <ListItem>
