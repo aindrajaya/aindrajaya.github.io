@@ -16,7 +16,7 @@ const Work = () => (
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Website</Meta>
-          <Link href="https://artopologi/">
+          <Link href="https://artopologi.com/">
             https://artopologi.com/ <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
@@ -26,7 +26,7 @@ const Work = () => (
         </ListItem>
         <ListItem>
           <Meta>Stack</Meta>
-          <span>Blockchain (Ethereum), Next, Tailwind, , Node.js</span>
+          <span>Blockchain (Polygon), Next, Tailwind, , Node.js</span>
         </ListItem>
         <ListItem>
           <Meta>News</Meta>
