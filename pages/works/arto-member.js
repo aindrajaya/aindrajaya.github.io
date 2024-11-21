@@ -16,7 +16,7 @@ const Work = () => (
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Website</Meta>
-          <Link href="https://memberships-nft.vercel.app/">
+          <Link href="https://memberships-nft.vercel.app/" target="_blank">
             https://memberships-nft.vercel.app/ <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
@@ -29,8 +29,8 @@ const Work = () => (
           <span>Blockchain (Ethereum), ERC-1155, Next, Tailwind, React</span>
         </ListItem>
       </List>
-      <WorkImage src="https://www.upwork.com/att/download/portfolio/persons/uid/890387443404328960/profile/projects/files/3f0162f7-693a-463e-8cde-d71c49424553" alt="Artopologi Member"/>
-      <WorkImage src="https://www.upwork.com/att/download/portfolio/persons/uid/890387443404328960/profile/projects/files/9ac5b91d-0ba5-4546-932d-9d5626b5777a" alt="Artopologi Member"/>
+      <WorkImage src="/images/works/arto-member1.png" alt="Artopologi Member"/>
+      <WorkImage src="/images/works/arto-member2.png" alt="Artopologi Member"/>
     </Container>
   </Layout>
 )

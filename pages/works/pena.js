@@ -16,7 +16,7 @@ const Work = () => (
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Website</Meta>
-          <Link href="https://penateam.com/">
+          <Link href="https://penateam.com/" target="_blank">
             https://penateam.com/ <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>

@@ -19,7 +19,7 @@ const Work = () => (
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Website</Meta>
-          <Link href="dapp-crowdfunding-client.vercel.app">
+          <Link href="dapp-crowdfunding-client.vercel.app" target="_blank">
           dapp-crowdfunding-client.vercel.app/ <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
