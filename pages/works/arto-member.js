@@ -11,7 +11,7 @@ const Work = () => (
         (POC) NFT Memberships Artopologi <Badge>2024</Badge>
       </Title>
       <P>
-        In this Project I Focus on Web3 implementation for NFT Memberships to provide exclusive access to artist events, behind-the-scenes content, and special discounts. It's been a great way to build a stronger community and reward loyal customers.
+        In this Project I Focus on Web3 implementation for NFT Memberships to provide exclusive access to artist events, behind-the-scenes content, and special discounts. It could be a great way to build a stronger community and reward loyal customers.
       </P>
       <List ml={4} my={4}>
         <ListItem>
