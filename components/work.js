@@ -37,6 +37,14 @@ export const YoutubeVideo = ({videoId}) => {
   )
 }
 
+export const VideoPlayer = ({ src, alt }) => (
+  <LazyLoad>
+    <Box>
+      <video src={src} controls alt={alt} />
+    </Box>
+  </LazyLoad>
+);
+
 export const Meta = ({children}) => {
   const color = useColorModeValue('yellow', 'green')
   return (
