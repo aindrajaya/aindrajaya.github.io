@@ -11,6 +11,8 @@ const chainxMpaThumb = "/images/works/chainx1.png"
 const nftMemberThumb = "/images/works/arto-member1.png"
 const dappCrowdfundingThumb = "https://res.cloudinary.com/colbycloud-apps/image/upload/f_avif/q_auto/v1/imagecarbon/qsdxln6pb9zhissexazm?_a=AVAEwDV0"
 const penaThumb = "/images/works/pena.png"
+const leanlyticsThumb = "/images/works/leanlytics.png"
+const werunpalestineThumb = "/images/works/werunpalestina.png"
 
 const Works = () => {
   return(
@@ -33,6 +35,16 @@ const Works = () => {
           <Section delay={0.1}>
             <WorkGridItem id="artopologi" title="Artopologi" thumbnail={artopThum}>
             Artopologi.com is a website that offers art-related content and services, such as artist profiles, art collections, and auctions.
+            </WorkGridItem>
+          </Section>
+          <Section delay={0.1}>
+            <WorkGridItem id="leanlytics" title="Leanlytics" thumbnail={leanlyticsThumb}>
+            Leanlytics.co is a comprehensive analytics platform designed to help businesses make data-driven decisions and optimize their operations.
+            </WorkGridItem>
+          </Section>
+          <Section delay={0.1}>
+            <WorkGridItem id="werunpalestina" title="We Run Palestina" thumbnail={werunpalestineThumb}>
+            WeRunPalestina.id is a charitable running event platform dedicated to raising awareness and support for Palestine through community engagement and fitness.
             </WorkGridItem>
           </Section>
         </SimpleGrid>

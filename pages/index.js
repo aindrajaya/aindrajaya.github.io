@@ -77,8 +77,36 @@ const Page = () => {
           Work
         </Heading>
         <Paragraph>
-          Arista is a software developer and educator based in Indonesia. And now work at Pena as Software Seveloper. His recent collaboration project is called Artopologi, an NFT marketplace that integrates physical assets with a web3 environment. Arista is passionate about creating digital solutions that solve real-life problems and has a talent for launching successful products from ideation to implementation. In addition to his work in tech, Arista enjoys teaching and empowering others to learn and grow in the field. When he`s not coding, Arista loves exploring creative hobbies like writing articles and testing dev.
+          Software Engineer focused on solving real-world problems with clean, efficient code. My expertise lies in building high-performance, accessible front-ends with ReactJS and architecting secure, decentralised solutions on the Polygon (Ethereum-based) blockchain.
         </Paragraph>
+        <Paragraph>
+          I&apos;ve applied this in the real world:
+        </Paragraph>
+        <List ml={4} my={2}>
+          <ListItem>
+            At Linitani, I spearheaded development to bring new efficiency and transparency to the agriculture industry.
+          </ListItem>
+          <ListItem>
+            I have proven experience building and deploying complex smart contracts, including a full NFT Marketplace from scratch.
+          </ListItem>
+        </List>
+        <Paragraph>
+          I&apos;m also passionate about building the developer community, having personally mentored and trained over 50 aspiring front-end developers in ReactJS at Binar Academy. I thrive in fast-paced environments where I can learn quickly and deliver results.
+        </Paragraph>
+        <Heading as="h4" variant="section-title" fontSize={16} mt={4}>
+          Core Competencies
+        </Heading>
+        <List ml={4} my={2}>
+          <ListItem>
+            <strong>Front-End:</strong> ReactJS, JavaScript, HTML/CSS, Web Accessibility, Performance Optimisation
+          </ListItem>
+          <ListItem>
+            <strong>Back-End (Web3):</strong> Ethereum, Solidity, Smart Contracts, Node.js, Web3.js
+          </ListItem>
+          <ListItem>
+            <strong>Professional:</strong> Mentorship, Teamwork, Communication, Agile Development
+          </ListItem>
+        </List>
         {
           isSizeY && 
             <Box align="center" my={4}>
@@ -101,11 +129,15 @@ const Page = () => {
           Bio
         </Heading>
         <BioSection>
-          <BioYear>29 Years Ago</BioYear>
+          <BioYear>31 Years Ago</BioYear>
           Born in Madiun, Indonesia
         </BioSection>
         <BioSection>
-          <BioYear>2023 - present</BioYear>
+          <BioYear>2025 - Present</BioYear>
+          Upwork Freelance Software Developer
+        </BioSection>
+        <BioSection>
+          <BioYear>2023 - 2025</BioYear>
           Working at Pena as Software Developer
         </BioSection>
         <BioSection>
