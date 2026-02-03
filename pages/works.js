@@ -13,6 +13,7 @@ const dappCrowdfundingThumb = "https://res.cloudinary.com/colbycloud-apps/image/
 const penaThumb = "/images/works/pena.png"
 const leanlyticsThumb = "/images/works/leanlytics.png"
 const werunpalestineThumb = "/images/works/werunpalestina.png"
+const dashThumb = "/images/works/dash-web.avif"
 
 const Works = () => {
   return(
@@ -53,6 +54,11 @@ const Works = () => {
           Personal Works
         </Heading>
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
+          <Section delay={0.1}>
+            <WorkGridItem id="dash" title="Dash Portfolio" thumbnail={dashThumb}>
+              A modern, responsive portfolio dashboard showcasing latest projects with optimized mobile and web views for seamless browsing across all devices.
+            </WorkGridItem>
+          </Section>
           <Section delay={0.2}>
             <WorkGridItem id="chainx" title="ChainX" thumbnail={chainxMpaThumb}>
               The ChainX Smart Contract Security Scanner is a robust and user-friendly tool designed to help developers identify vulnerabilities in their Solidity smart contracts before deployment.
