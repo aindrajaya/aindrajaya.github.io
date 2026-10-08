@@ -6,29 +6,6 @@ const Typewriter = () => {
   const [index, setIndex] = useState(0);
 
   useEffect(() => {
-    const txt = `I'm Arista Indrajaya
-            I'm a full-stack software and blockchain developer based out of Depok, 
-            Indonesia, and I create informative, accesible, and fast website. 
-            I prever leave every bit of code I touch more performant and accessible development.
-
-            Apart from full-stack and blockchain coding laborer, 
-            I'm also passionate about listening and 
-            sharing what I've learned both with my teammates and 
-            the local or broader web and blockchain community. 
-            I've gained so much from others sharing their skills and knowledge, 
-            and willing to not only perform web development work 
-            but also collaborate and helps other so we can improve our work, 
-            skill, and team capability.
-
-            I'm trying to tend to help bring out a cleared sense of purpose 
-            and encourage clearer team communication, 
-            resulting in better team results 
-            and a higher sense of satisfaction for all involved.
-            
-            - think
-            - learn
-            - code
-            - test 🥝`;
     const txtFix = `I'm Arista, Nice to meet you 👋.
     Welcome to my personal page! Please feel free to explore this site and discover some of my exciting projects 😄
     `

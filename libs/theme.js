@@ -9,17 +9,25 @@ const styles = {
   })
 }
 
+const sectionTitle = {
+  textDecoration: 'underline',
+  fontSize: 20,
+  textUnderlineOffset: 6,
+  textDecorationColor: "#525252",
+  textDecorationThickness: 4,
+  marginTop: 3,
+  marginBottom: 4
+}
+
 const components = {
   Heading: {
     variants: {
-      'sections-title': {
-        textDecoration: 'underline',
-        fontSize: 20,
-        textUnderlineOffset: 6,
-        textDecorationColor: "#525252",
-        textDecorationThickness: 4,
-        marginTop: 3,
-        marginBottom: 4
+      'sections-title': sectionTitle,
+      'section-title': sectionTitle,
+      'page-title': {
+        textDecoration: 'none',
+        fontSize: 32,
+        fontWeight: 'bold'
       }
     }
   },

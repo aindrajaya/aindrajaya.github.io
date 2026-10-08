@@ -11,7 +11,7 @@
     "test": "jest --watch"
   },
   "keywords": [],
-  "author": "A Indrajaya <me@aindrajaya.my.id> (https://aindrajaya.io/)",
+  "author": "A Indrajaya <me@aindrajaya.my.id> (https://aindrajaya.my.id)",
   "license": "MIT",
   "dependencies": {
     "@chakra-ui/icons": "2.0.17",
