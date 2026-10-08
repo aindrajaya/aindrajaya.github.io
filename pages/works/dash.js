@@ -1,5 +1,4 @@
-import { Container, Badge, Link, List, ListItem, SimpleGrid, Box, Heading, Image as ChakraImage } from "@chakra-ui/react";
-import { ExternalLinkIcon } from "@chakra-ui/icons";
+import { Container, Badge, List, ListItem, SimpleGrid, Box, Heading, Image as ChakraImage } from "@chakra-ui/react";
 import { Title, WorkImage, Meta } from "../../components/work";
 import P from "../../components/paragraph";
 import Layout from "../../components/layouts/article";
@@ -11,15 +10,9 @@ const Work = () => (
         Dash Portfolio <Badge>2025</Badge>
       </Title>
       <P>
-        A modern, responsive portfolio dashboard showcasing my latest projects and work. This subdomain features a dynamic project listing with optimized mobile and web views for seamless browsing across all devices. Built with modern web technologies and best practices for performance and user experience.
+        A past project: a modern, responsive portfolio dashboard that showcased my projects and work. It featured a dynamic project listing with optimized mobile and web views for seamless browsing across devices, and was built with modern web technologies and best practices for performance and user experience.
       </P>
       <List ml={4} my={4}>
-        <ListItem>
-          <Meta>Website</Meta>
-          <Link href="https://dash.aindrajaya.my.id/" target="_blank">
-            https://dash.aindrajaya.my.id/ <ExternalLinkIcon mx="2px" />
-          </Link>
-        </ListItem>
         <ListItem>
           <Meta>Platforms</Meta>
           <span>Web, Responsive Design, Mobile-Optimized</span>
