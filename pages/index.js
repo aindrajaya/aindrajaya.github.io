@@ -25,7 +25,7 @@ const Page = () => {
         mb={3} 
         align="center"
         >
-        I&apos;m Website Apps Developer based in Indonesia
+        Senior React Performance Engineer. I fix what AI-generated code breaks.
         {isSizeX && <Button
           as={NextLink}
           href="/works"
@@ -43,7 +43,7 @@ const Page = () => {
           <Heading as="h2" variant="page-title">
             Arista Indrajaya
           </Heading>
-          <p>Website Apps Developer (Web3 / React / JavaScript)</p>
+          <p>Faster React &amp; Next.js apps, even when AI wrote the code</p>
         </Box>
         <Box
           flexShrink={0}
@@ -77,7 +77,7 @@ const Page = () => {
           Work
         </Heading>
         <Paragraph>
-          Software Engineer focused on solving real-world problems with clean, efficient code. My expertise lies in building high-performance, accessible front-ends with ReactJS and architecting secure, decentralised solutions on the Polygon (Ethereum-based) blockchain.
+          AI tools help teams ship SaaS products quickly, but the code they generate often slows the app down: pages that load late, clicks that lag, screens that freeze on phones. I&apos;m a Senior React Performance Engineer. I find what is causing the slowdown and fix it, so your product feels fast to real users and holds up on Google&apos;s Core Web Vitals.
         </Paragraph>
         <Paragraph>
           I&apos;ve applied this in the real world:
@@ -87,7 +87,7 @@ const Page = () => {
             At Linitani, I spearheaded development to bring new efficiency and transparency to the agriculture industry.
           </ListItem>
           <ListItem>
-            I have proven experience building and deploying complex smart contracts, including a full NFT Marketplace from scratch.
+            I audit and repair performance regressions in AI-generated React and Next.js code, from slow page loads to laggy interactions, without rewriting the whole app.
           </ListItem>
         </List>
         <Paragraph>
@@ -101,7 +101,7 @@ const Page = () => {
             <strong>Front-End:</strong> ReactJS, JavaScript, HTML/CSS, Web Accessibility, Performance Optimisation
           </ListItem>
           <ListItem>
-            <strong>Back-End (Web3):</strong> Ethereum, Solidity, Smart Contracts, Node.js, Web3.js
+            <strong>Performance Engineering:</strong> Core Web Vitals, INP and LCP optimisation, React/Next.js performance profiling, Web Workers, SharedArrayBuffer, AI-generated code audits
           </ListItem>
           <ListItem>
             <strong>Professional:</strong> Mentorship, Teamwork, Communication, Agile Development
@@ -163,7 +163,7 @@ const Page = () => {
           <Link href="https://www.youtube.com/watch?v=4TuggkDPw6A" target="_blank">
             Football ⚽
           </Link>
-          , Teaching, Blockchain, and Software Development
+          , Teaching, Performance Engineering, and Software Development
         </Paragraph>
       </Section>
       

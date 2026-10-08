@@ -5,14 +5,14 @@ import Typewriter from "../typewriter";
 import Footer from "../footer";
 
 const SITE_URL = "https://aindrajaya.my.id";
-const DESCRIPTION = "Arista Indrajaya is a website apps developer based in Indonesia, building high-performance React front-ends and Web3 (Ethereum/Polygon) products.";
+const DESCRIPTION = "Arista Indrajaya is a Senior React Performance Engineer who fixes what AI-generated code breaks: faster Core Web Vitals, INP and LCP for React and Next.js apps.";
 
 const Main = ({children, router, canonical = `${SITE_URL}/`}) => {
   return(
     <Box as="main">
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="description" content="Arista's homepage" />
+        <meta name="description" content="Arista Indrajaya — Senior React Performance Engineer fixing performance regressions in AI-generated React and Next.js code." />
         <meta name="author" content="Arista Indrajaya" />
         <meta name="author" content="aindrajaya" />
         <link rel="apple-touch-icon" href="/logo.png" />
