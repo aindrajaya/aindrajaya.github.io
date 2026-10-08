@@ -17,7 +17,7 @@ const dashThumb = "/images/works/dash-web.avif"
 
 const Works = () => {
   return(
-    <Layout>
+    <Layout title="Works" canonical="https://aindrajaya.my.id/works">
       <Container>
         <Heading as="h3" fontSize={20} mb={6}>
           Works

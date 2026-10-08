@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://aindrajaya.my.id/sitemap.xml

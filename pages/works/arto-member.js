@@ -5,7 +5,7 @@ import P from "../../components/paragraph";
 import Layout from "../../components/layouts/article";
 
 const Work = () => (
-  <Layout title="arto-member">
+  <Layout title="arto-member" canonical="https://aindrajaya.my.id/works/arto-member">
     <Container>
       <Title>
         (POC) NFT Memberships Artopologi <Badge>2024</Badge>

@@ -1,9 +1,13 @@
+import Head from "next/head";
 import NextLink from "next/link";
 import { Box, Heading, Text, Container, Divider, Button } from "@chakra-ui/react";
 
 const NotFound = () => {
   return(
     <Container>
+      <Head>
+        <meta name="robots" content="noindex" />
+      </Head>
       <Heading as="h1">Not Found</Heading>
       <Text>The page you &apos;re looking for was not found.</Text>
       <Divider my={6}/>

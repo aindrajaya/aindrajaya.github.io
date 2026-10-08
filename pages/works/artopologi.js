@@ -5,7 +5,7 @@ import P from "../../components/paragraph";
 import Layout from "../../components/layouts/article";
 
 const Work = () => (
-  <Layout title="artopologi">
+  <Layout title="artopologi" canonical="https://aindrajaya.my.id/works/artopologi">
     <Container>
       <Title>
         Artopologi <Badge>2022</Badge>

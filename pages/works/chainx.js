@@ -5,7 +5,7 @@ import P from "../../components/paragraph";
 import Layout from "../../components/layouts/article";
 
 const Work = () => (
-  <Layout title="chainx">
+  <Layout title="chainx" canonical="https://aindrajaya.my.id/works/chainx">
     <Container>
       <Title>
         Chainx - Smart Contract Security Scanner <Badge>2024</Badge>

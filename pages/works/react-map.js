@@ -5,7 +5,7 @@ import P from "../../components/paragraph";
 import Layout from "../../components/layouts/article";
 
 const Work = () => (
-  <Layout title="reactmap">
+  <Layout title="reactmap" canonical="https://aindrajaya.my.id/works/react-map">
     <Container>
       <Title>
         React Map <Badge>2022</Badge>

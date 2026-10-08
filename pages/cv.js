@@ -7,7 +7,7 @@ const CV = () => {
   const borderColor = useColorModeValue("gray.200", "gray.600");
 
   return (
-    <Layout title="CV">
+    <Layout title="CV" canonical="https://aindrajaya.my.id/cv">
       <Container maxW="container.xl">
         <Heading as="h3" fontSize={20} mb={4}>
           Curriculum Vitae

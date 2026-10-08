@@ -7,7 +7,7 @@ const variants = {
   enter: {opacity: 1, x: 0, y: 20},
   exit: {opacity: 0, x: -0, y: 20},
 }
-const Layout = ({children, title}) => {
+const Layout = ({children, title, canonical}) => {
   const a = `${title} - Arista Indrajaya`
   return(
     <motion.article
@@ -23,7 +23,12 @@ const Layout = ({children, title}) => {
           <Head>
             <title>{a}</title>
             <meta name="twitter:title" content={a} />
-            <meta property="og:title" content={a} />
+            <meta property="og:title" content={a} key="og:title" />
+          </Head>
+        )}
+        {canonical && (
+          <Head>
+            <link rel="canonical" href={canonical} key="canonical" />
           </Head>
         )}
         {children}
