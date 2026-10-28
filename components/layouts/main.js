@@ -24,7 +24,7 @@ const Main = ({children, router, canonical = `${SITE_URL}/`}) => {
         <meta property="og:image" content="https://aindrajaya.my.id/logo.png" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta property="og:type" content="website" />
-        <title>{"Arista's Source of Information - HomePage"}</title>
+        <title>Perproof</title>
       </Head>
 
       <Navbar path={router.asPath}/>
