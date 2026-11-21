@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="340" viewBox="0 0 560 340" role="img" aria-label="WebGIS case study">
+  <rect width="560" height="340" fill="#1f3d3b"/>
+  <g fill="none" stroke="#88ccca" stroke-width="2" opacity=".55">
+    <path d="M0 250 L140 190 L280 230 L420 150 L560 190"/>
+    <path d="M0 290 L140 240 L280 280 L420 205 L560 240"/>
+    <rect x="150" y="70" width="110" height="70"/>
+    <rect x="290" y="95" width="90" height="55"/>
+  </g>
+  <text x="280" y="190" text-anchor="middle" font-family="sans-serif" font-size="40" font-weight="700" fill="#fff">WebGIS</text>
+</svg>
