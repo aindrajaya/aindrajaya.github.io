@@ -38,27 +38,27 @@ const IMG = '/work/webgis'
 const media = {
   overview: {
     src: `${IMG}/01-overview.webp`,
-    ready: false,
+    ready: true,
     alt: 'Two-dimensional map of the fishing port with land-parcel layers drawn over aerial imagery.',
     caption: '2D map of the port with the land-parcel layers switched on.'
   },
   view3d: {
     src: `${IMG}/02-3d-view.webp`,
-    ready: false,
+    ready: true,
     alt: 'Three-dimensional point cloud view of the port with point size and brightness controls.',
     caption: '3D point cloud view, with point size and RGB brightness controls.'
   },
   detail: {
     src: `${IMG}/03-plot-detail.webp`,
-    ready: false,
+    ready: true,
     alt: 'Layer manager panel listing map layers with visibility, opacity and approval status controls.',
     caption: 'Layer manager: visibility, opacity, ordering and approval status per layer.'
   },
   admin: {
     src: `${IMG}/04-admin.webp`,
-    ready: false,
-    alt: 'Administrator view of the platform for managing datasets and access.',
-    caption: 'Admin experience, separate from the standard user view.'
+    ready: true,
+    alt: 'Administrator panel for reviewing land-use and lease applications, with occupancy status colour-coded on the parcel map.',
+    caption: 'Admin view: reviewing user applications and plot occupancy, separate from the standard user view.'
   }
 }
 // Poster for the video facade (uses the 3D view; swap if you prefer another).

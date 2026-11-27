@@ -13,7 +13,7 @@ const dappCrowdfundingThumb = "https://res.cloudinary.com/colbycloud-apps/image/
 const penaThumb = "/images/works/pena.png"
 const leanlyticsThumb = "/images/works/leanlytics.png"
 const werunpalestineThumb = "/images/works/werunpalestina.png"
-const webgisThumb = "/work/webgis/thumb-placeholder.svg" // TODO: swap for 01-overview once added
+const webgisThumb = "/work/webgis/01-overview.webp"
 const dashThumb = "/images/works/dash-web.avif"
 
 const Works = () => {
