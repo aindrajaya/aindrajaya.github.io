@@ -20,10 +20,10 @@ const Main = ({children, router, canonical = `${SITE_URL}/`}) => {
         <link rel="shortcut icon" href="/favicon40x40.svg" type="image/x-icon" />
         <meta property="og:site_name" content="Arista Indrajaya" />
         <meta property="og:title" content="Arista Indrajaya" key="og:title" />
-        <meta property="og:description" content={DESCRIPTION} />
-        <meta property="og:image" content="https://aindrajaya.my.id/logo.png" />
+        <meta property="og:description" content={DESCRIPTION} key="og:description" />
+        <meta property="og:image" content="https://aindrajaya.my.id/logo.png" key="og:image" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta property="og:type" content="website" />
+        <meta property="og:type" content="website" key="og:type" />
         <title>Perproof</title>
       </Head>
 

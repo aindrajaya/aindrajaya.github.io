@@ -13,6 +13,7 @@ const dappCrowdfundingThumb = "https://res.cloudinary.com/colbycloud-apps/image/
 const penaThumb = "/images/works/pena.png"
 const leanlyticsThumb = "/images/works/leanlytics.png"
 const werunpalestineThumb = "/images/works/werunpalestina.png"
+const webgisThumb = "/work/webgis/01-overview.webp"
 const dashThumb = "/images/works/dash-web.avif"
 
 const Works = () => {
@@ -28,6 +29,11 @@ const Works = () => {
         </Heading>
         {/* With Delay 0.1 */}
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
+          <Section delay={0.1}>
+            <WorkGridItem id="webgis" title="WebGIS Asset Management" thumbnail={webgisThumb}>
+            A 2D/3D geospatial platform for managing, leasing and maintaining land plots at a fishing port in Jakarta, built with React, MapLibre GL, Potree and GeoServer.
+            </WorkGridItem>
+          </Section>
           <Section delay={0.1}>
             <WorkGridItem id="pena" title="Pena" thumbnail={penaThumb}>
             Penateam.com is a platform that offers technical documentation services, such as API & SDK Documentation, Internal Documentation and many more.
